@@ -3,12 +3,12 @@
 
 ---
 
-![[CubeRaman-Sliced-TwoThirds_ (1).png]]
+![](assets/CubeRaman-Sliced-TwoThirds_%20(1).png)
 *Image does not depict the acquired parts: Spectrometer Unit, Laser, Microscope Objective, Micrometer Screw, Fiber Optic Cable and still uses CP32/M and CP33/M instead of the printed lens tubes for mounting the FELH0550 Longpass Filter and the Achromatic Doublet*
 
 ---
 
-![[Spectra-Card_Isopropyl-Alcohol_PNG.png]]
+![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
 
 ---
 # Parts needed
