@@ -8,11 +8,13 @@ This repo is currently under construction. It is the more compact and simplified
 ## Sample Spectra
 
 ![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)![](assets/Spectra-Card_Diamond_PNG.png)
+
 Examples of the expected spectral performance without any adjustments. Unprocessed acquired spectrum vs. processed reference spectrum. Taken before tuning the 45° dichroic mirror at all.  
 
 ---
 
 ![](assets/CubeRaman-Sliced-TwoThirds_%20(1).png)
+
 *Image does not depict the acquired parts: Spectrometer Unit, Laser, Microscope Objective, Micrometer Screw, Fiber Optic Cable and still uses CP32/M and CP33/M instead of the printed lens tubes for mounting the FELH0550 Longpass Filter and the Achromatic Doublet.*
 
 ---
