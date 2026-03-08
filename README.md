@@ -7,7 +7,7 @@ This repo is currently under construction. It is the more compact and simplified
 ---
 ## Sample Spectra
 
-![345](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)![345](assets/Spectra-Card_Diamond_PNG.png)
+![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)![](assets/Spectra-Card_Diamond_PNG.png)
 Examples of the expected spectral performance without any adjustments. Unprocessed acquired spectrum vs. processed reference spectrum. Taken before tuning the 45° dichroic mirror at all.  
 
 ---
