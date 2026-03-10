@@ -1,5 +1,6 @@
 # CubeRaman
 *3D-Printed Raman Spectroscopy*
+
 --- 
 
 This repo is currently under construction. It is the more compact and simplified iteration of my [DIYraman (GitHub)](https://github.com/jacobbusshart/DIYraman) build.
@@ -38,6 +39,9 @@ High-quality laser safety glasses are mandatory to protect your eyes from the po
 
 --- 
 ## 3D-Printed Parts
+
+![](assets/Explode_Low-Level_700px_aGIF.gif)
+
 
 All parts were printed on a Bambu P1S using high resolution exports out of Fusion and sliced using BambuStudio
 
