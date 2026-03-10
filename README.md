@@ -40,7 +40,33 @@ High-quality laser safety glasses are mandatory to protect your eyes from the po
 --- 
 ## 3D-Printed Parts
 
-![](assets/Explode_Low-Level_700px_aGIF.gif)
+![](assets/CubeRaman_Parts_Low-Level_Exploded_Annotated_700px_JPG.jpg)
+
+### Base Cube & Sides
+
+Print the base cube along with the side plates first. Afterwards print the rest of the grouped parts below.
+
+All parts were printed without supports and are only printed once!
+
+| Base Cube + Sides       |
+| ----------------------- |
+| Base-Cube               |
+| Base-Cube-Top           |
+| Cube-Insert_Sample      |
+| Cube-Insert_Dump        |
+| Cube-Insert_Laser       |
+| Cube-Insert_FilterFocus |
+
+### Parts
+
+| **Laser**       | **Mirror**       | **Filter & Focus** | **Beam Dump** | **Sample** |
+| --------------- | ---------------- | ------------------ | ------------- | ---------- |
+| Laser-Insert    | Mirror-Kinematic | SM1-Tube           | Dump-Body     | -          |
+| Laser-Kinematic | Mirror-Backplate | SM05-Tube          | Dump-Cone     |            |
+| BP-RR           | Cube-Lid         | SM1-Lockring       | Dump-Aperture |            |
+|                 | Mirror-RR        | SMA905-SM05        |               |            |
+|                 |                  | SM1-RR (2x)        |               |            |
+|                 |                  | SM05-RR (2x)       |               |            |
 
 
 All parts were printed on a Bambu P1S using high resolution exports out of Fusion and sliced using BambuStudio
@@ -51,3 +77,9 @@ All parts were printed on a Bambu P1S using high resolution exports out of Fusio
 - 50% Gyroid infill
 - Seam position Nearest or Random
 - Precision parameters set to 0.001mm
+ 
+
+
+*To be continued...*
+
+![](assets/Explode_Low-Level_700px_aGIF.gif)
