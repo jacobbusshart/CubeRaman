@@ -1,6 +1,8 @@
 # CubeRaman
 *3D-Printed Raman Spectroscopy*
 
+![](assets/CubeRaman_Picture-1_700w_JPG.jpg)
+
 --- 
 
 This repo is currently under construction. It is the more compact and simplified iteration of my [DIYraman (GitHub)](https://github.com/jacobbusshart/DIYraman) build.
