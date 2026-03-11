@@ -1,7 +1,7 @@
 # CubeRaman
 *3D-Printed Raman Spectroscopy*
 
-![](assets/CubeRaman_Picture-1_700w_JPG.jpg)
+![](assets/Picture-PE-Container_700w-JPG.jpg)
 
 --- 
 
@@ -16,9 +16,9 @@ This repo is currently under construction. It is the more compact and simplified
 
 ## Sample Spectra
 
-![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)![](assets/Spectra-Card_Diamond_PNG.png)
+![](assets/Spectra-Card_Paracetamol_PNG.png)![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
 
-Examples of the expected spectral performance without any adjustments. Unprocessed acquired spectrum vs. processed reference spectrum. Taken before tuning the 45° dichroic mirror at all.  
+Examples of the expected spectral performance. The resolution - how narrow or wide a peak is and thus their separability - is determined by a multitude of factors. In this case the main bottleneck lies at their 100 micron input slit of the spectrometer unit, as well as its linear CCD. The beam diameter is also a factor, along with its stability and IR-leakage. Though a higher resolution spectrometer will definitely yield significantly better results.
 
 ---
 
@@ -76,12 +76,18 @@ All parts were printed on a Bambu P1S using high resolution exports out of Fusio
 - PETG-CF (Black) 
 - 0.4mm Hardened Steel Nozzle
 - 0.12mm Layer height
-- 50% Gyroid infill
+- 4 Walls, 50% Gyroid infill
 - Seam position Nearest or Random
 - Precision parameters set to 0.001mm
  
 
 
 *To be continued...*
+
+--- 
+## Various
+
+![](assets/Picture-Ethanol-Bottle-WithSpectrum_700w-JPG.jpg)
+Testing capabilities during calibration in full daylight: depending on the focus distance you either detect the Raman spectrum of the bottle content - in this case Ethanol/Water - or the bottle itself. This only works if your microscope objective's working distance is greater than the wall width of the container to be measured. Here the working distance is 2.4mm, which is sufficient.
 
 ![](assets/Explode_Low-Level_700px_aGIF.gif)
