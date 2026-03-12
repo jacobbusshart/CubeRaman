@@ -1,28 +1,37 @@
 # CubeRaman
-*3D-Printed Raman Spectroscopy*
+
+*3D-Printed Raman Spectrometer*
+
+This project aims to make Raman spectroscopy more accessible, replicable and - in the first place - affordable. It can be used to non-destructively identify chemicals, polymers, pharmaceuticals and minerals in an experimental setting.
+
+*This repo is currently under construction. It is the more compact and simplified iteration of my [DIYraman (GitHub)](https://github.com/jacobbusshart/DIYraman) build.*
 
 ![](assets/Picture-PE-Container_700w-JPG.jpg)
 
+It is designed in a back-scattering configuration - both exciting and collecting through the microscope objective. It uses a 532nm laser at ~30mW, utilizing filters with a cut-on at 550nm, which effectively allows for Raman measurements in the wavenumber range of 600cm<sup>-1</sup>-3000cm<sup>-1</sup>
+
+
+---
+## Sample Spectra
+
+![](assets/Spectra-Card_Paracetamol_PNG.png)![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
+
+Examples of the expected spectral performance. The resolution - how narrow or wide a peak is and thus their separability - is determined by a multitude of factors. With the main bottleneck of the system being the 100 micron input slit of the spectrometer unit. The beam diameter is also a factor, along with its stability and IR-leakage. A higher resolution spectrometer will definitely yield significantly better results - though at a significant cost.
+
 --- 
 
-This repo is currently under construction. It is the more compact and simplified iteration of my [DIYraman (GitHub)](https://github.com/jacobbusshart/DIYraman) build.
+## 3D-Model
 
 ![](assets/CubeRaman_Model-Full_700w_JPG.jpg)
 ![](assets/CubeRaman_Model-HalfCut_345w_JPG.jpg)![](assets/CubeRaman_Model-HalfCutSide_345w_JPG.jpg)
 
 *Images do not depict the acquired parts: Spectrometer Unit, Laser, Microscope Objective, Longpass Filter, Focusing Lens, Screws, Nuts and Magnets*
 
----
-
-## Sample Spectra
-
-![](assets/Spectra-Card_Paracetamol_PNG.png)![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
-
-Examples of the expected spectral performance. The resolution - how narrow or wide a peak is and thus their separability - is determined by a multitude of factors. In this case the main bottleneck lies at their 100 micron input slit of the spectrometer unit, as well as its linear CCD. The beam diameter is also a factor, along with its stability and IR-leakage. Though a higher resolution spectrometer will definitely yield significantly better results.
+A more detailed overview of the printed parts are depicted in the section below.
 
 ---
 
-# Parts needed
+## Sourced Parts
 
 | Part                                                                                       | Description / Specification                                       | Cost                          |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- | ----------------------------- |
@@ -37,9 +46,9 @@ Examples of the expected spectral performance. The resolution - how narrow or wi
 | + Various                                                                                  | M3 Screws + Nuts, M3 Heat Set Inserts, <br>Magnets 6x2mm          | <p align="right">10€</p>      |
 |                                                                                            | <p align="right">**TOTAL**</p>                                    | <p align="right">**799€**</p> |
 
-High-quality laser safety glasses are mandatory to protect your eyes from the powerful laser and its reflections. Buy a certified pair from a reputable supplier, not Aliexpress! They should be rated for the laser's wavelength at 532nm. I bought [these](https://protect-laserschutz.de/de/shop/~p1924) from a local German brand for around 130€.
+**<u>High-quality laser safety glasses are mandatory to protect your eyes from the powerful laser and its reflections!</u>** Buy a certified pair from a reputable supplier, not Aliexpress! They should be rated for the laser's wavelength at 532nm. I bought [these](https://protect-laserschutz.de/de/shop/~p1924) from a local German brand for around 130€.
 
---- 
+---
 ## 3D-Printed Parts
 
 ![](assets/CubeRaman_Parts_Low-Level_Exploded_Annotated_700px_JPG.jpg)
@@ -70,8 +79,7 @@ All parts were printed without supports and are only printed once!
 |                 |                  | SM1-RR (2x)        |               |            |
 |                 |                  | SM05-RR (2x)       |               |            |
 
-
-All parts were printed on a Bambu P1S using high resolution exports out of Fusion and sliced using BambuStudio
+Printed on a Bambu P1S using high resolution exports out of Fusion and sliced using BambuStudio
 
 - PETG-CF (Black) 
 - 0.4mm Hardened Steel Nozzle
@@ -88,6 +96,9 @@ All parts were printed on a Bambu P1S using high resolution exports out of Fusio
 ## Various
 
 ![](assets/Picture-Ethanol-Bottle-WithSpectrum_700w-JPG.jpg)
+
 Testing capabilities during calibration in full daylight: depending on the focus distance you either detect the Raman spectrum of the bottle content - in this case Ethanol/Water - or the bottle itself. This only works if your microscope objective's working distance is greater than the wall width of the container to be measured. Here the working distance is 2.4mm, which is sufficient.
+
+![](assets/Backscattering-Configuration_Graphic_PNG.png)
 
 ![](assets/Explode_Low-Level_700px_aGIF.gif)
