@@ -93,12 +93,25 @@ Printed on a Bambu P1S using high resolution exports out of Fusion and sliced us
 *To be continued...*
 
 --- 
+
+## How It Works
+
+![](assets/Backscattering-Configuration_Graphic_PNG.png)
+
+The **532 nm laser** fires horizontally. The **bandpass filter** strips IR leakage from the cheap diode module and narrows the laser's wavelength. The beam then hits the **DMLP550 dichroic mirror** at 45°, which reflects it 90° downward through the **20x objective** and onto the **sample**.
+Backscattered light travels back up through the objective. The Raman-shifted photons (>550 nm) transmit straight through the dichroic toward the detector, while the unwanted Rayleigh-scattered 532 nm light passes into the beam dump. The **FELH0550 longpass filter** gives a second stage of Rayleigh rejection, the **f=19mm achromat** focuses the beam onto the 100 μm slit, and the **B&W Tek spectrometer** records the spectrum.
+
+The acquired spectrum is processed to remove residual background or fluorescence interference and make it more legible. That means: cropping and calculating Raman-shift, cosmic spike removal, baseline correction, smoothing and normalizing. Additionally, peaks can be detected and fitted, though this is more relevant for high-performance/-resolution Raman instruments that have been calibrated to certified standards. 
+
+![](assets/Spectrum_PP-Container_2000x7_PNG.png)
+
+---
 ## Various
 
 ![](assets/Picture-Ethanol-Bottle-WithSpectrum_700w-JPG.jpg)
 
 Testing capabilities during calibration in full daylight: depending on the focus distance you either detect the Raman spectrum of the bottle content - in this case Ethanol/Water - or the bottle itself. This only works if your microscope objective's working distance is greater than the wall width of the container to be measured. Here the working distance is 2.4mm, which is sufficient.
 
-![](assets/Backscattering-Configuration_Graphic_PNG.png)
+
 
 ![](assets/Explode_Low-Level_700px_aGIF.gif)
