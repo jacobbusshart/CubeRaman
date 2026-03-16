@@ -44,7 +44,7 @@ A more detailed overview of the printed parts are depicted in the section below.
 | [532nm Laser Pointer](https://aliexpress.com/item/1005004415839015.html)                   | Any (cheap) 532nm laser module, >30mW                             | <p align="right">10€</p>      |
 | [Fiber Optic Cable](https://aliexpress.com/item/1005008245139319.html)                     | ~~(Optional)<br>Any optical fiber, SMA905 connector, 200μm core~~ | ~~<p align="right">53€</p>~~  |
 | + Various                                                                                  | M3 Screws + Nuts, M3 Heat Set Inserts, <br>Magnets 6x2mm          | <p align="right">10€</p>      |
-|                                                                                            | <p align="right">**TOTAL**</p>                                    | <p align="right">**799€**</p> |
+|                                                                                            | <p align="right">**TOTAL**</p>                                    | <p align="right">**749€**</p> |
 
 **<u>High-quality laser safety glasses are mandatory to protect your eyes from the powerful laser and its reflections!</u>** Buy a certified pair from a reputable supplier, not Aliexpress! They should be rated for the laser's wavelength at 532nm. I bought [these](https://protect-laserschutz.de/de/shop/~p1924) from a local German brand for around 130€.
 
