@@ -79,6 +79,12 @@ All parts were printed without supports and are only printed once!
 |                 |                  | SM1-RR (2x)        |               |            |
 |                 |                  | SM05-RR (2x)       |               |            |
 
+| **Extras**     |
+| -------------- |
+| Spanner_SM1RR  |
+| Spanner_SM05RR |
+
+
 Printed on a Bambu P1S using high resolution exports out of Fusion and sliced using BambuStudio
 
 - PETG-CF (Black) 
@@ -88,9 +94,13 @@ Printed on a Bambu P1S using high resolution exports out of Fusion and sliced us
 - Seam position Nearest or Random
 - Precision parameters set to 0.001mm
  
+---
 
+## **Build Video**
 
-*To be continued...*
+![](assets/Youtube-Thumbnail.png)
+
+**[Click here to watch the build process! - Youtube](https://youtu.be/bUxc6mWsTgc)**
 
 --- 
 
@@ -111,6 +121,7 @@ The acquired spectrum is processed to remove residual background or fluorescence
 ![](assets/Picture-Ethanol-Bottle-WithSpectrum_700w-JPG.jpg)
 
 Testing capabilities during calibration in full daylight: depending on the focus distance you either detect the Raman spectrum of the bottle content - in this case Ethanol/Water - or the bottle itself. This only works if your microscope objective's working distance is greater than the wall width of the container to be measured. Here the working distance is 2.4mm, which is sufficient.
+
 
 
 
