@@ -6,7 +6,7 @@ This project aims to make Raman spectroscopy more accessible, replicable and - i
 
 *This repo is currently under construction. It is the more compact and simplified iteration of my [DIYraman (GitHub)](https://github.com/jacobbusshart/DIYraman) build.*
 
-![](assets/Picture-PE-Container_700w-JPG.jpg)
+![](assets/CubeRaman-Header-8799_1400px_JPG.jpg)
 
 It is designed in a back-scattering configuration - both exciting and collecting through the microscope objective. It uses a 532nm laser at ~30mW, utilizing filters with a cut-on at 550nm, which effectively allows for Raman measurements in the wavenumber range of 600cm<sup>-1</sup>-3000cm<sup>-1</sup>
 
