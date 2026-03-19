@@ -10,9 +10,10 @@ This project aims to make Raman spectroscopy more accessible, replicable and - i
 
 It is designed in a back-scattering configuration - both exciting and collecting through the microscope objective. It uses a 532nm laser at ~30mW, utilizing filters with a cut-on at 550nm, which effectively allows for Raman measurements in the wavenumber range of 600cm<sup>-1</sup>-3000cm<sup>-1</sup>
 
-
 ---
 ## Sample Spectra
+
+![](assets/Polypropylene-Comparison_PNG.png)
 
 ![](assets/Spectra-Card_Paracetamol_PNG.png)![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
 
@@ -114,6 +115,8 @@ Backscattered light travels back up through the objective. The Raman-shifted pho
 The acquired spectrum is processed to remove residual background or fluorescence interference and make it more legible. That means: cropping and calculating Raman-shift, cosmic spike removal, baseline correction, smoothing and normalizing. Additionally, peaks can be detected and fitted, though this is more relevant for high-performance/-resolution Raman instruments that have been calibrated to certified standards. 
 
 ![](assets/Spectrum_PP-Container_2000x7_PNG.png)
+
+![](assets/Comparing%20Tube-Exposures-Processed.png)
 
 ---
 ## Various
