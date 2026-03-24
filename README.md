@@ -8,13 +8,11 @@ This project aims to make Raman spectroscopy more accessible, replicable and - i
 
 ![](assets/CubeRaman-Header-8799_1400px_JPG.jpg)
 
-It is designed in a back-scattering configuration - both exciting and collecting through the microscope objective. It uses a 532nm laser at ~30mW, utilizing filters with a cut-on at 550nm, which effectively allows for Raman measurements in the wavenumber range of 600cm<sup>-1</sup>-3000cm<sup>-1</sup>
+It is designed in a back-scattering configuration - both exciting and collecting through the microscope objective. It uses a 532nm laser at ~30mW, utilizing filters with a cut-on at 550nm, which effectively allows for Raman measurements in the wavenumber range of 600cm<sup>-1</sup>- 3000cm<sup>-1</sup>
 
 ---
 ## Sample Spectra
-
-![](assets/Polypropylene-Comparison_PNG.png)
-
+![](assets/RawToProcessed-Polypropylene_PNG.png)
 ![](assets/Spectra-Card_Paracetamol_PNG.png)![](assets/Spectra-Card_Isopropyl-Alcohol_PNG.png)
 
 Examples of the expected spectral performance. The resolution - how narrow or wide a peak is and thus their separability - is determined by a multitude of factors. With the main bottleneck of the system being the 100 micron input slit of the spectrometer unit. The beam diameter is also a factor, along with its stability and IR-leakage. A higher resolution spectrometer will definitely yield significantly better results - though at a significant cost.
@@ -114,11 +112,15 @@ Backscattered light travels back up through the objective. The Raman-shifted pho
 
 The acquired spectrum is processed to remove residual background or fluorescence interference and make it more legible. That means: cropping and calculating Raman-shift, cosmic spike removal, baseline correction, smoothing and normalizing. Additionally, peaks can be detected and fitted, though this is more relevant for high-performance/-resolution Raman instruments that have been calibrated to certified standards. 
 
+![](assets/Polypropylene-Comparison_PNG.png)
+![](assets/PP%20-%20Adjusting%20Focus%20and%20Laser%20Mount.png)
+
 ![](assets/Spectrum_PP-Container_2000x7_PNG.png)
 
 ![](assets/Comparing%20Tube-Exposures-Processed.png)
 
 ---
+
 ## Various
 
 ![](assets/Picture-Ethanol-Bottle-WithSpectrum_700w-JPG.jpg)
