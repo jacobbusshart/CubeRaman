@@ -41,7 +41,7 @@ A more detailed overview of the printed parts are depicted in the section below.
 | Microscope Objective                                                                       | Any used/new, infinity-corrected, 20x                                                                                                                  | <p align="right">50€</p>      |
 | [B&W Tek BTC 100-2S](https://ebay.us/m/y6hDoC)                                             | Surplus spectrometer unit, 100μm slit, 450-650nm                                                                                                       | <p align="right">180€</p>     |
 |                                                                                            | + Any [5V / 2A+ DC Power Supply](https://amzn.eu/d/00yvyamx) (Barrel Jack)<br>+ Any [RS232-to-USB Cable](https://amzn.eu/d/01SqgRPR) for Communication |                               |
-| [532nm Laser Pointer](https://aliexpress.com/item/1005004415839015.html)                   | Any (cheap) 532nm laser module, >30mW                                                                                                                  | <p align="right">10€</p>      |
+| [532nm Laser Pointer](https://aliexpress.com/item/1005004415839015.html)                   | Any (cheap) 532nm laser module, >30mW, (Ø12mm)                                                                                                         | <p align="right">10€</p>      |
 | + Various                                                                                  | M3 Screws + Nuts, M3 Heat Set Inserts, <br>Magnets 6x2mm                                                                                               | <p align="right">10€</p>      |
 | [Optional](https://aliexpress.com/item/1005008245139319.html)                              | Any Fiber Optic Cable, SMA905, +-200μm core                                                                                                            | <p align="right">(50€)</p>    |
 |                                                                                            | <p align="right">**TOTAL**</p>                                                                                                                         | <p align="right">**749€**</p> |
@@ -99,11 +99,75 @@ Printed on a Bambu P1S using high resolution exports out of Fusion and sliced us
 
 **Draft - Work in Progress**
 
-### Base-Cube
+- I use a Bambu P1S with a 0.4mm hardened steel nozzle and extruder
+- Filament is ideally non-reflective and dark / black to reduce stray light; I used black PETG-CF as it's my favorite and the matte (and also overall better) PETG
+### 1. Printing
+
+- Set "**Precision**" settings in your slicer (*may just be placebo*) ![](assets/Pasted%20image%2020260412232121.png)
+- **No Supports** are needed for any of the parts!
+- **Print Orientation**: face flat / perpendicular to the build plate - especially for threads! "**Auto-Orient**" should always do the trick.
+- **Layer Height** set to at least **0.12mm**. (at least for the parts with threads or fine features) 
+- "**Seam Position**" is set to **Nearest** or Random for a better fit.
+
+- All parts should be easy to print; the Base-Cube being the most demanding, as it features overhangs. (TO BE REVISED to 45° to facilitate printing)
+- For the **Cube-Inserts** and the **Cube-Lid** especially, it is best to let the build plate / part cool down before removing it. This is good practice to avoid bending the part and introducing permanent deformation.
+
+### 2. Assembly
+
+#### Base-Cube
+
+**Printed Parts:** Base-Cube, Base-Cube-Top
+**Sourced Parts:** (24x) M3 heat Set Inserts (Length: 4mm, Outer Diameter: 4mm), (24x) M3 x 8mm Screws
+
 ![](assets/Instruction-Graphic_1_JPG.jpg)
-![](assets/Instruction-Graphic_2_JPG.jpg)
+
+Note: You don't have to insert all the threads at first. I initially didn't put any on the bottom (of Step 1 in the graphic) and on one side, which later contains the Beam Dump and was simultaneously used as an opening to get to the adjustment screws of the 45° mirror inside. The clearances of the of the Cube-Inserts are relatively tight - even more, if the overhangs on the cube sag a little. In the testing stages I mostly used 2 screws (top-left and bottom-right) for each of the other Cube-Inserts (Laser, Sample, FilterFocus).  
+
+Now that the Base-Cube is set up you can start putting together the Cube-Insert sub-assemblies. The following sections *don't* need to be performed in order. 
+
+#### Laser
+
+**Printed Parts:** Cube-Insert_Laser, Laser-Kinematic, Laser-Insert, BP-RR (only if Bandpass Filter is used)
+**Sourced Parts:** 532nm Laser (Ø12mm), Recommended but optional: [Bandpass Filter #65640](https://www.edmundoptics.com/p/532nm-cwl-10nm-fwhm-125mm-mounted-diameter/20158/), 4x Magnets (Ø6mm, width: 2mm), 3x M3 x 8mm Screws + Nuts (Fine-Pitch .35 Screws / Nuts are preferred but normal also work)
+
+
+1. Press the *Magnets* into the respective openings. 
+2. Now press the *M3 Nuts* into *Laser-Kinematic*.
+	1. On the new version *Cube-Insert_Laser* also features 2 openings for magnets, as *Laser-Kinematic* sits on the inside of the cube! ![](assets/Pasted%20image%2020260413003216.png)
+	2. Make sure the polarity of the magnets match: the orientation with the magnets visible are intended to pull onto each other, so make sure to orient the magnets accordingly when fitting them in!
+3. Screw the *M3 Screws* into the nuts from the same side. (from where the surface of the magnets is visible)
+4. For best results use a hammer on the screw head while inserted to ensure the nuts are flush and inserted all the way. (If you want them permanently fixed, you may use a soldering iron to lightly melt the nuts in. This isn't necessary with current tight clearances!) 
+5. The *Laser* module is friction press-fit into *Laser-Insert*. Ensure the Laser's front surface sits perpendicularly flush.
+6. Now press the *Bandpass Filter* into the other side of *Laser-Insert*.
+7. It should already sit tight, but in addition *BP-RR* is lightly screwed on until it secures the rim of the filter.
+8. Finally screw the assembled *Laser-Insert* into the printed thread of *Laser-Kinematic*.
+9. On the newest version, the Laser assembly now clamps on from the inside of *Cube-Insert_Laser*.
+10. With the entire assembly now sitting on Cube-Insert_Laser, it can be pressed into a side of *Base-Cube* and fastened with 4 screws.
+#### Sample
+
+**Printed Parts:** Cube-Insert_Sample
+**Sourced Parts:** Microscope Objective (20x, Infinity-Corrected, M32-Thread) (+ MORE FOR THE FULL MICROMETER ASSEMBLY / FOCUS STAGE COMING SOON)
+
+1. Make sure the *Microscope Objective* thread matches the printed part (currently only M32 available, contact me at Jacob@Busshart.de for variations)
+2. With the *Microscope Objective* positioned perpendicular on the thread, carefully thread it into *Cube-Insert_Sample*. This may require more force initially, especially the first time. 
+3. When the *Microscope Objective* sits flush with the surface of *Cube-Insert_Sample*, the assembly can be pressed into the side to the left of *Cube-Insert_Laser* (or as depicted in the graphic) and fastened with 4 screws.
+#### Beam Dump
+
+**Printed Parts:** Cube-Insert_Dump, Dump-Body, Dump-Cone, Dump-Aperture
+**Sourced Parts:** -
+
+1. 
+
+#### Filter & Focus
+
+COMING SOON
+
 
 **Draft - Work in Progress**
+
+![](assets/Instruction-Graphic_2_JPG.jpg)
+
+
 
 ---
 
