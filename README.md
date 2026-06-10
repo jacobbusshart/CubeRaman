@@ -21,10 +21,9 @@ Examples of the expected spectral performance. The resolution - how narrow or wi
 
 ## 3D-Model
 
-![](assets/CubeRaman_Model-Full_700w_JPG.jpg)
-![](assets/CubeRaman_Model-HalfCut_345w_JPG.jpg)![](assets/CubeRaman_Model-HalfCutSide_345w_JPG.jpg)
+![](assets/Fusion360_nqk8Fc2b4F.png)
+![](assets/Fusion360_4bFE6D0DJ5.png)
 
-*Images do not depict the acquired parts: Spectrometer Unit, Laser, Microscope Objective, Longpass Filter, Focusing Lens, Screws, Nuts and Magnets*
 
 A more detailed overview of the printed parts are depicted in the section below.
 
@@ -35,7 +34,7 @@ A more detailed overview of the printed parts are depicted in the section below.
 | Part                                                                                       | Description / Specification                                                                                                                            | Cost                          |
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
 | [DMLP550](https://www.thorlabs.com/item/DMLP550)                                           | Ø1" Longpass Dichroic Mirror, 550nm Cut-On                                                                                                             | <p align="right">195€</p>     |
-| [FELH0550](https://www.thorlabs.com/item/FELH0550)                                         | Ø25.0mm Longpass Filter, 550nm Cut-On                                                                                                                  | <p align="right">150€</p>     |
+| [FELH0550](https://www.thorlabs.com/item/FELH0550)                                         | Ø25.0mm Longpass Filter, 550nm Cut-On<br>(or the new 1/2" version FELH05550)                                                                           | <p align="right">150€</p>     |
 | [#65640](https://www.edmundoptics.com/p/532nm-cwl-10nm-fwhm-125mm-mounted-diameter/20158/) | Bandpass Filter 532nm, 10nm FWHM                                                                                                                       | <p align="right">95€</p>      |
 | [AC127-019-A](https://www.thorlabs.com/item/AC127-019-A)                                   | Ø1/2" Achromatic Doublet, f=19mm                                                                                                                       | <p align="right">59€</p>      |
 | Microscope Objective                                                                       | Any used/new, infinity-corrected, 20x                                                                                                                  | <p align="right">50€</p>      |
@@ -54,6 +53,8 @@ A more detailed overview of the printed parts are depicted in the section below.
 ![](assets/CubeRaman_Parts_Low-Level_Exploded_Annotated_700px_JPG.jpg)
 
 ### Base Cube & Sides
+
+![](assets/CubeRaman_Model-Full_700w_JPG.jpg)
 
 Print the base cube along with the side plates first. Afterwards print the rest of the grouped parts below.
 
@@ -100,7 +101,7 @@ Printed on a Bambu P1S using high resolution exports out of Fusion and sliced us
 **Draft - Work in Progress**
 
 - I use a Bambu P1S with a 0.4mm hardened steel nozzle and extruder
-- Filament is ideally non-reflective and dark / black to reduce stray light; I used black PETG-CF as it's my favorite and the matte (and also overall better) PETG
+- Filament is ideally non-reflective and dark / black to reduce stray light; I used black PETG-CF as it's my favorite and matte. The stiffer the better; PLA-CF is also a sensible alternative. 
 ### 1. Printing
 
 - Set "**Precision**" settings in your slicer (*may just be placebo*) ![304](assets/Pasted%20image%2020260412232121.png)
@@ -187,6 +188,7 @@ The Beam Dump as a whole was designed to be as modular as possible to allow for 
 
 SEE [BUILD VIDEO](https://youtu.be/bUxc6mWsTgc)
 
+![](assets/_DSC8859.jpg)
 
 **Draft - Work in Progress**
 
